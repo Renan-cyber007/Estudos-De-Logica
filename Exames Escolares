@@ -1,0 +1,17 @@
+algoritmo "Exames Escolares"
+var
+   N1,N2,MEDIA:REAL
+inicio
+   ESCREVAL("ESCOLA GENÉRICA")
+   ESCREVAL("DIGITE A PRIMEIRA NOTA: ")
+   LEIA(N1)
+   ESCREVAL("DIGITE A SEGUNDA NOTA: ")
+   LEIA(N2)
+   MEDIA <- (N1 + N2)/2
+   ESCREVAL("MEDIA:",MEDIA)
+   SE (MEDIA>=6.0) ENTAO
+      ESCREVAL("ALUNO APROVADO")
+   SENAO
+      ESCREVAL("ALUNO REPROVADO")
+   FIMSE
+fimalgoritmo
